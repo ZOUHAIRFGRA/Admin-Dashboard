@@ -39,7 +39,7 @@
 
 ## About The Project
 
-![Screen Shot](images\dashboard.png)
+![Screen Shot](images/dashboard.png)
 
 Welcome to our React Admin Dashboard – the result of our passion for full-stack development, data visualization, and user-friendly interfaces.
 
