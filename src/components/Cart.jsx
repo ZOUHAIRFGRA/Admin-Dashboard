@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
@@ -5,7 +6,7 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import { useStateContext } from '../contexts/ContextProvider';
 import { cartData } from '../data/dummy';
 import { Button } from '.';
-//cart jsx 
+// cart jsx
 const Cart = () => {
   const { currentColor } = useStateContext();
 

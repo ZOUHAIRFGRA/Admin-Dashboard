@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 
+// eslint-disable-next-line import/no-cycle
 import { Button } from '.';
 import { chatData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
